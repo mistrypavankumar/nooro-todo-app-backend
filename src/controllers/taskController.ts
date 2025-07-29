@@ -23,7 +23,11 @@ export const createTask = catchAsyncErrors(
 
 export const getTasks = catchAsyncErrors(
   async (req: Request, res: Response) => {
-    const tasks = await prisma.task.findMany();
+    const tasks = await prisma.task.findMany({
+      orderBy: {
+        createdAt: "desc",
+      },
+    });
     return res.status(200).json(tasks);
   }
 );
