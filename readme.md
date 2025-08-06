@@ -116,6 +116,11 @@ The server should now be running at `http://localhost:5000`.
 
 ---
 
+## 📺 Tutorial
+
+[![Watch the video](https://img.youtube.com/vi/XjsrxmKzwCA/maxresdefault.jpg)](https://youtu.be/XjsrxmKzwCA?si=qKBluxgZ3fvn4VYp)
+
+
 ## 📄 License
 
 This project is licensed for educational purposes under the MIT License.
